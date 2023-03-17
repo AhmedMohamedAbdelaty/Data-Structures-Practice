@@ -92,39 +92,6 @@ void Vector::push_back(int value)
         expand_capacity();
     arr[size++] = value;
 }
-void Vector::right_rot()
-{
-    int en = arr[size - 1];
-    for (int i = size - 1; i > 0; i--) {
-        arr[i] = arr[i - 1];
-    }
-    arr[0] = en;
-}
-void Vector::left_rot()
-{
-    int st = arr[0];
-    for (int i = 0; i < size - 1; i++) {
-        arr[i] = arr[i + 1];
-    }
-    arr[size - 1] = st;
-}
-void Vector::left_shift(int times)
-{
-    int calc = times % size;
-    if (calc == 0)
-        return;
-    int rem = size - calc;
-    int* new_arr = new int[capacity];
-    int k = 0;
-    for (int i = calc; i < size; i++) {
-        new_arr[k++] = arr[i];
-    }
-    for (int i = 0; i <= calc - 1; i++) {
-        new_arr[k++] = arr[i];
-    }
-    swap(arr, new_arr);
-    delete[] new_arr;
-}
 int main()
 {
     int n = 5;

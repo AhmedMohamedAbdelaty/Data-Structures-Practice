@@ -1,5 +1,8 @@
 # Data-Structures Course Notes
+
 Dr. Moustafa Saad's Data Structures course notes and homework
+
+Course : [Mastering critical SKILLS in Data Structures using C++](https://www.udemy.com/course/dscpp-skills/)
 
 ------
 

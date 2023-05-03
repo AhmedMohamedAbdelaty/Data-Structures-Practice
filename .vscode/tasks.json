@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and run Cpp",
+            "type": "shell",
+            "linux": {
+                "command": "",
+                "args": [
+                    "g++",
+                    "-std=c++2a",
+                    "-O2", // test
+                    "-Wno-unused-result", // test
+                    "-o",
+                    "${fileBasenameNoExtension}",
+                    "${file}",
+                    "&&",
+                    "clear",
+                    "&&",
+                    "timeout",
+                    "5",
+                    "./${fileBasenameNoExtension}",
+                    "<",
+                    "input.txt",
+                    ">",
+                    "output.txt"
+                    /*
+                    another version witout input.txt and output.txt
+                    "g++",
+                    "-std=c++2a",
+                    "-o",
+                    "${fileBasenameNoExtension}",
+                    "${file}",
+                    "&&",
+                    "clear",
+                    "&&",
+                    "timeout",
+                    "5",
+                    "./${fileBasenameNoExtension}"
+                    */
+                ]
+            },
+            "group": "build",
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": ["relative", "${workspaceRoot}"],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }
+    ]
+}

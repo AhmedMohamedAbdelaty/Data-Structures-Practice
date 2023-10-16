@@ -24,6 +24,10 @@ public:
     SingleLinkedList();
     ~SingleLinkedList();
     void insert_end(int dt);
+    int search(int value);
+    int search_improved(int value);
+    // for Data Integrity
+    void debug_verify_data_integrity();
     void print();
 };
 

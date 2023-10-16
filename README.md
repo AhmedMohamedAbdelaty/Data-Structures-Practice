@@ -7,7 +7,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 ------
 
 <p align="center">
-  <img src="https://64.media.tumblr.com/533bcf9ea232dccc8dcd070b4d03d022/tumblr_prwyedU4el1tf04pfo1_640.gifv" alt="animated" />
+  <img src="https://i.pinimg.com/originals/fc/21/16/fc2116fb21de12a62d4b36c31bbb1e6f.gif" alt="animated" />
 </p>
 
 ------

@@ -7,7 +7,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 ------
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/QMHoU66sBXqqLqYvGO/giphy.gif?cid=ecf05e47xvacp5gvg6jldqwaiuuidvdr6u83e1lezds34enu&rid=giphy.gif&ct=g" alt="animated" />
+  <img src="https://64.media.tumblr.com/533bcf9ea232dccc8dcd070b4d03d022/tumblr_prwyedU4el1tf04pfo1_640.gifv" alt="animated" />
 </p>
 
 ------
@@ -30,3 +30,26 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 |            12 Trie            |        :x:         |        :x:         |   :x:    | :interrobang: |
 |          13 Hashing           |        :x:         |        :x:         |   :x:    | :interrobang: |
 
+----
+# Folder Structure
+```md
+.
+├── directory-structure.md
+├── Linked-List
+│   └── Single-Linked-List
+│       ├── Homework
+│       ├── main_SingleLinkedList.cpp
+│       ├── SingleLinkedList.cpp
+│       └── SingleLinkedList.h
+├── README.md
+└── Vector
+    ├── Homework
+    │   ├── 2_Homework_1.cpp
+    │   ├── 3_Homework_2.cpp
+    │   ├── 4_Homework_3.cpp
+    │   ├── 5_Homework_4.cpp
+    │   └── 6_Homework_5.cpp
+    └── main_vector.cpp
+
+5 directories, 11 files
+```

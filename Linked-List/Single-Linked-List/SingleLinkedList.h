@@ -18,12 +18,12 @@ class SingleLinkedList {
 private:
     Node* head;
     Node* tail;
+    int length = 0;
 
 public:
     SingleLinkedList();
     ~SingleLinkedList();
     void insert_end(int dt);
-    void remove(int dt);
     void print();
 };
 

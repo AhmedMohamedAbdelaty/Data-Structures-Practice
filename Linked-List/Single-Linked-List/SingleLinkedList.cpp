@@ -3,6 +3,7 @@
 SingleLinkedList::SingleLinkedList()
     : head(nullptr)
     , tail(nullptr)
+    , length(0)
 {
 }
 
@@ -14,6 +15,7 @@ SingleLinkedList::~SingleLinkedList()
         delete current;
         current = next;
     }
+    length = 0;
 }
 
 void SingleLinkedList::insert_end(int dt)
@@ -28,32 +30,12 @@ void SingleLinkedList::insert_end(int dt)
         tail->next = node;
         tail = node;
     }
-}
-
-void SingleLinkedList::remove(int dt)
-{
-    Node* current = head;
-    Node* previous = nullptr;
-    while (current != nullptr) {
-        if (current->data == dt) {
-            if (previous == nullptr) {
-                head = current->next;
-            } else {
-                previous->next = current->next;
-            }
-            if (current == tail) {
-                tail = previous;
-            }
-            delete current;
-            return;
-        }
-        previous = current;
-        current = current->next;
-    }
+    length++;
 }
 
 void SingleLinkedList::print()
 {
+    cout << "Length: " << length << endl;
     Node* current = head;
     while (current != nullptr) {
         cout << current->data << " ";

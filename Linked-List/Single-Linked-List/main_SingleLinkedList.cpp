@@ -7,10 +7,10 @@ int main()
 {
     SingleLinkedList list;
     list.insert_end(1);
-    list.insert_end(1);
-    list.insert_end(1);
-    list.insert_end(1);
-    // print:
-    // 1 2 3
+    list.insert_end(2);
+    list.insert_end(3);
+    list.insert_end(4);
+    list.insert_end(5);
     list.print();
+    return 0;
 }

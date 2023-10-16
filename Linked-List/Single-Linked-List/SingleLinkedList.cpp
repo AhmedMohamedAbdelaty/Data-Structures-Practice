@@ -16,15 +16,17 @@ SingleLinkedList::~SingleLinkedList()
     }
 }
 
-void SingleLinkedList::insert(int dt)
+void SingleLinkedList::insert_end(int dt)
 {
-    Node* newNode = new Node(dt);
+    Node* node = new Node(dt);
+    // if head is null, then the list is empty and we need to set head and tail to the new node
+    // if head is not null, then we need to set the current tail's next to the new node and set the tail to the new node
     if (head == nullptr) {
-        head = newNode;
-        tail = newNode;
+        head = node;
+        tail = node;
     } else {
-        tail->next = newNode;
-        tail = newNode;
+        tail->next = node;
+        tail = node;
     }
 }
 

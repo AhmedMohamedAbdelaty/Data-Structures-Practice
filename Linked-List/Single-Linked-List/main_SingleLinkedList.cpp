@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
     SingleLinkedList list;
-    list.insert(1);
-    list.insert(2);
-    list.insert(3);
-
+    list.insert_end(1);
+    list.insert_end(1);
+    list.insert_end(1);
+    list.insert_end(1);
     // print:
     // 1 2 3
     list.print();

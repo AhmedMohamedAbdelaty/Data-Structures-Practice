@@ -22,7 +22,7 @@ private:
 public:
     SingleLinkedList();
     ~SingleLinkedList();
-    void insert(int dt);
+    void insert_end(int dt);
     void remove(int dt);
     void print();
 };

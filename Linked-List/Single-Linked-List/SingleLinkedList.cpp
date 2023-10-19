@@ -79,10 +79,78 @@ void SingleLinkedList::debug_verify_data_integrity()
     Node* current = head;
     int count = 0;
     while (current != nullptr) {
-        assert(count < length); 
+        assert(count < length);
         current = current->next;
         count++;
     }
+}
+
+Node* SingleLinkedList::get_nth_node(int n)
+{
+    if (n < 0 || n >= length) {
+        return nullptr;
+    }
+    Node* current = head;
+    for (int i = 0; i < n; i++) {
+        current = current->next;
+    }
+    return current;
+}
+
+void SingleLinkedList::delete_first_node()
+{
+    if (head == nullptr) {
+        cout << "List is empty!" << endl;
+        return;
+    }
+    Node* temp = head;
+    head = head->next;
+    delete temp;
+    length--;
+    // if the list becomes empty, then we need to set the tail to null
+    if (head == nullptr) {
+        cout << "Deleted!" << endl;
+        cout << "List became empty!" << endl;
+        tail = nullptr;
+        return;
+    }
+    cout << "Deleted!" << endl;
+}
+
+void SingleLinkedList::delete_last_node()
+{
+    // if list is empty or has only one node
+    if (length <= 1) {
+        delete_first_node();
+        return;
+    }
+    Node* temp = tail;
+    Node* prev = get_nth_node(length - 2);
+    prev->next = nullptr;
+    tail = prev;
+    delete temp;
+    length--;
+    cout << "Deleted!" << endl;
+}
+void SingleLinkedList::delete_nth_node(int n)
+{
+    if (n < 0 || n >= length) {
+        cout << "Invalid index!" << endl;
+        return;
+    }
+    if (length <= 1) {
+        delete_first_node();
+        return;
+    }
+    if (n == length - 1) {
+        delete_last_node();
+        return;
+    }
+    Node* temp = get_nth_node(n); // to be deleted
+    Node* prev = get_nth_node(n - 1);
+    prev->next = temp->next;
+    delete temp;
+    length--;
 }
 
 void SingleLinkedList::print()

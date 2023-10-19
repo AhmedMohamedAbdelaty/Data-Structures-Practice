@@ -21,6 +21,7 @@ private:
     int length = 0;
 
 public:
+    // all index are 0-based
     SingleLinkedList();
     ~SingleLinkedList();
     void insert_end(int dt);
@@ -28,6 +29,11 @@ public:
     int search_improved(int value);
     // for Data Integrity
     void debug_verify_data_integrity();
+
+    Node* get_nth_node(int n);
+    void delete_first_node();
+    void delete_last_node();
+    void delete_nth_node(int n);
     void print();
 };
 

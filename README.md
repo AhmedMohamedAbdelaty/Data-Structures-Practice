@@ -32,7 +32,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 ----
 ## Linked List Problems: 
-- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [Merge 2 Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Remove Nth Node](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)

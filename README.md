@@ -31,6 +31,30 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 |          13 Hashing           |              :x:              |              :x:              |              :x:              |
 
 ----
+## Linked List Problems: 
+- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [x] [Merge 2 Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [x] [Remove Nth Node](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [ ] [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- [ ] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [ ] [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
+- [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [ ] [Sort Colors (Bonus)](https://leetcode.com/problems/sort-colors/)
+- [ ] [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- [ ] [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [ ] [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+- [ ] [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [ ] [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+- [ ] [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements)
+- [ ] [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists)
+- [ ] [Design Linked List](https://leetcode.com/problems/design-linked-list)
+- [ ] [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)
+- [ ] [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts)
+- [ ] [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list)
+----
 # Folder Structure
 ```md
 .

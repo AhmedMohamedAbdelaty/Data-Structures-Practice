@@ -58,22 +58,30 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 # Folder Structure
 ```md
 .
-├── directory-structure.md
 ├── Linked-List
-│   └── Single-Linked-List
-│       ├── Homework
-│       ├── main_SingleLinkedList.cpp
-│       ├── SingleLinkedList.cpp
-│       └── SingleLinkedList.h
+│   ├── Doubly-Linked-List
+│   │   ├── DoublyLinkedList.cpp
+│   │   ├── DoublyLinkedList.h
+│   │   ├── main_DoublyLinkedList.cpp
+│   │   └── output
+│   │       └── main_DoublyLinkedList
+│   └── Single-Linked-List
+│       ├── main_SingleLinkedList.cpp
+│       ├── output
+│       │   └── main_SingleLinkedList
+│       ├── SingleLinkedList.cpp
+│       └── SingleLinkedList.h
 ├── README.md
 └── Vector
     ├── Homework
-    │   ├── 2_Homework_1.cpp
-    │   ├── 3_Homework_2.cpp
-    │   ├── 4_Homework_3.cpp
-    │   ├── 5_Homework_4.cpp
-    │   └── 6_Homework_5.cpp
-    └── main_vector.cpp
+    │   ├── 2_Homework_1.cpp
+    │   ├── 3_Homework_2.cpp
+    │   ├── 4_Homework_3.cpp
+    │   ├── 5_Homework_4.cpp
+    │   └── 6_Homework_5.cpp
+    ├── main_vector.cpp
+    └── output
+        └── main_vector
 
-5 directories, 11 files
+8 directories, 16 files
 ```

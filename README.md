@@ -18,8 +18,8 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 | :---------------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
 |           01 Vector           |      :white_check_mark:       |      :white_check_mark:       | :negative_squared_cross_mark: |
 |         02 Complexity         | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
-|        03 Single List         |   :hourglass_flowing_sand:    |   :hourglass_flowing_sand:    |   :hourglass_flowing_sand:    |
-|     04 doubly linked list     |              :x:              |              :x:              |              :x:              |
+|        03 Single List         |      :white_check_mark:       | :negative_squared_cross_mark: |   :hourglass_flowing_sand:    |
+|     04 doubly linked list     |      :white_check_mark:       | :negative_squared_cross_mark: |   :hourglass_flowing_sand:    |
 | 05 Project #1 - Sparse Matrix |              :x:              |              :x:              |              :x:              |
 |           06 Stack            |              :x:              |              :x:              |              :x:              |
 |           07 Queue            |              :x:              |              :x:              |              :x:              |

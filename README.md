@@ -1,3 +1,5 @@
+<div align="center">
+  
 # Data-Structures Course Notes
 
 Dr. Moustafa Saad's Data Structures course notes and homework
@@ -11,9 +13,11 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 </p>
 
 ------
+</div>
 
 
-
+<div align="center">
+  
 |            Section            |         Tutorial         |      Homework      |         Problems         |
 | :---------------------------: | :----------------------: | :----------------: | :----------------------: |
 |           01 Vector           |    :white_check_mark:    | :white_check_mark: |      :repeat:,:ok:       |
@@ -29,6 +33,8 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 |            11 AVL             |           :x:            |  :no_entry_sign:   |           :x:            |
 |            12 Trie            |           :x:            |  :no_entry_sign:   |           :x:            |
 |          13 Hashing           |           :x:            |  :no_entry_sign:   |           :x:            |
+
+</div>
 
 ----
 ## Linked List Problems: 

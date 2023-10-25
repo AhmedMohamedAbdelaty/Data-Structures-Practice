@@ -14,21 +14,21 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 
 
-|            Section            |           Tutorial            |           Homework            |           Problems            |
-| :---------------------------: | :---------------------------: | :---------------------------: | :---------------------------: |
-|           01 Vector           |      :white_check_mark:       |      :white_check_mark:       | :negative_squared_cross_mark: |
-|         02 Complexity         | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: |
-|        03 Single List         |      :white_check_mark:       | :negative_squared_cross_mark: |   :hourglass_flowing_sand:    |
-|     04 doubly linked list     |      :white_check_mark:       | :negative_squared_cross_mark: |   :hourglass_flowing_sand:    |
-| 05 Project #1 - Sparse Matrix |              :x:              |              :x:              |              :x:              |
-|           06 Stack            |              :x:              |              :x:              |              :x:              |
-|           07 Queue            |              :x:              |              :x:              |              :x:              |
-|        08 Binary Trees        |              :x:              |              :x:              |              :x:              |
-|            09 BST             |              :x:              |              :x:              |              :x:              |
-|        10 Binary Heap         |              :x:              |              :x:              |              :x:              |
-|            11 AVL             |              :x:              |              :x:              |              :x:              |
-|            12 Trie            |              :x:              |              :x:              |              :x:              |
-|          13 Hashing           |              :x:              |              :x:              |              :x:              |
+|            Section            |         Tutorial         |      Homework      |         Problems         |
+| :---------------------------: | :----------------------: | :----------------: | :----------------------: |
+|           01 Vector           |    :white_check_mark:    | :white_check_mark: |      :repeat:,:ok:       |
+|         02 Complexity         |           :ok:           |  :no_entry_sign:   |           :ok:           |
+|        03 Single List         |    :white_check_mark:    |  :no_entry_sign:   |      :repeat:,:ok:       |
+|     04 doubly linked list     |    :white_check_mark:    |  :no_entry_sign:   |      :repeat:,:ok:       |
+| 05 Project #1 - Sparse Matrix |     :no_entry_sign:      |  :no_entry_sign:   |     :no_entry_sign:      |
+|           06 Stack            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
+|           07 Queue            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
+|        08 Binary Trees        | :hourglass_flowing_sand: |  :no_entry_sign:   | :hourglass_flowing_sand: |
+|            09 BST             |           :x:            |  :no_entry_sign:   |           :x:            |
+|        10 Binary Heap         |           :x:            |  :no_entry_sign:   |           :x:            |
+|            11 AVL             |           :x:            |  :no_entry_sign:   |           :x:            |
+|            12 Trie            |           :x:            |  :no_entry_sign:   |           :x:            |
+|          13 Hashing           |           :x:            |  :no_entry_sign:   |           :x:            |
 
 ----
 ## Linked List Problems: 

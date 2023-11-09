@@ -64,7 +64,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 ## Binary Trees Problems: Source [(Binary Trees study guide): ](https://leetcode.com/discuss/study-guide/1212004/binary-trees-study-guide)
 
 1. **traversal problems**:
-   - [ ] [Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
+   - [x] [Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
    - [ ] [Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
    - [ ] [PostOrder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
    - [ ] [Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
@@ -134,7 +134,17 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 ```md
 .
-├── Linked-List
+├── 1_Vector
+│   ├── Homework
+│   │   ├── 2_Homework_1.cpp
+│   │   ├── 3_Homework_2.cpp
+│   │   ├── 4_Homework_3.cpp
+│   │   ├── 5_Homework_4.cpp
+│   │   └── 6_Homework_5.cpp
+│   ├── main_vector.cpp
+│   └── output
+│       └── main_vector
+├── 2_Linked-List
 │   ├── Doubly-Linked-List
 │   │   ├── DoublyLinkedList.cpp
 │   │   ├── DoublyLinkedList.h
@@ -143,21 +153,17 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 │   │       └── main_DoublyLinkedList
 │   └── Single-Linked-List
 │       ├── main_SingleLinkedList.cpp
-│       ├── output
-│       │   └── main_SingleLinkedList
 │       ├── SingleLinkedList.cpp
-│       └── SingleLinkedList.h
-├── README.md
-└── Vector
-    ├── Homework
-    │   ├── 2_Homework_1.cpp
-    │   ├── 3_Homework_2.cpp
-    │   ├── 4_Homework_3.cpp
-    │   ├── 5_Homework_4.cpp
-    │   └── 6_Homework_5.cpp
-    ├── main_vector.cpp
-    └── output
-        └── main_vector
+│       │── SingleLinkedList.h
+│       ├── output
+│           └── main_SingleLinkedList
+├── 3_Binary-Trees
+│   ├── BinaryTree.cpp
+│   ├── BinaryTree.h
+│   ├── main_BinaryTree.cpp
+│   └── output
+│       └── main_BinaryTree
+└── README.md
 
-8 directories, 16 files
+10 directories, 20 files
 ```

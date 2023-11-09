@@ -2,39 +2,59 @@
 #include <cassert> // for assert
 #include <iostream>
 using namespace std;
-// constructor 
-template <typename T>
-BinaryTree<T>::BinaryTree()
-    : root(nullptr)
+
+// constructor
+BinaryTree::BinaryTree(int dt = 0)
 {
+    this->data = dt;
+    this->left = nullptr;
+    this->right = nullptr;
 }
 
-template <typename T>
-void BinaryTree<T>::print_inorder(Node<T>* root)
+void BinaryTree::add(vector<int> values, string path)
 {
-    if (!root)
-        return;
-    print_inorder(root->left);
-    cout << root->data << " ";
-    print_inorder(root->right);
+    assert(path.size() == values.size());
+    BinaryTree* current = this;
+    for (int i = 0; i < path.size(); i++) {
+        if (path[i] == 'L') {
+            if (current->left == nullptr) {
+                current->left = new BinaryTree(values[i]);
+            } else
+                assert(current->left->data == values[i]);
+            current = current->left;
+        } else {
+            if (current->right == nullptr) {
+                current->right = new BinaryTree(values[i]);
+            } else
+                assert(current->right->data == values[i]);
+            current = current->right;
+        }
+    }
 }
 
-template <typename T>
-void BinaryTree<T>::print_postorder(Node<T>* root)
+void BinaryTree::print_inorder(BinaryTree tree)
 {
-    if (!root)
-        return;
-    print_postorder(root->left);
-    print_postorder(root->right);
-    cout << root->data << " ";
+    if (tree.left != nullptr)
+        print_inorder(*tree.left);
+    cout << tree.data << " ";
+    if (tree.right != nullptr)
+        print_inorder(*tree.right);
 }
 
-template <typename T>
-void BinaryTree<T>::print_preorder(Node<T>* root)
+void BinaryTree::print_preorder(BinaryTree tree)
 {
-    if (!root)
-        return;
-    cout << root->data << " ";
-    print_preorder(root->left);
-    print_preorder(root->right);
+    cout << tree.data << " ";
+    if (tree.left != nullptr)
+        print_preorder(*tree.left);
+    if (tree.right != nullptr)
+        print_preorder(*tree.right);
+}
+
+void BinaryTree::print_postorder(BinaryTree tree)
+{
+    if (tree.left != nullptr)
+        print_postorder(*tree.left);
+    if (tree.right != nullptr)
+        print_postorder(*tree.right);
+    cout << tree.data << " ";
 }

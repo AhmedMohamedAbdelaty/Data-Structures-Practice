@@ -2,40 +2,21 @@
 #define BINARYTREE_H
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
-template <typename T>
-struct Node {
-    T data;
-    Node<T>* left;
-    Node<T>* right;
-    Node(T data)
-        : data(data)
-        , left(nullptr)
-        , right(nullptr)
-    {
-    }
-    Node()
-        : data(0)
-        , left(nullptr)
-        , right(nullptr)
-    {
-    }
-};
-
-template <typename T>
 class BinaryTree {
 private:
-    Node<T>* root;
+    int data = 0;
+    BinaryTree* left = nullptr;
+    BinaryTree* right = nullptr;
 
 public:
-    BinaryTree()
-        : root(nullptr)
-    {
-    }
-    void print_inorder(Node<T>* root);
-    void print_postorder(Node<T>* root);
-    void print_preorder(Node<T>* root);
+    BinaryTree(int data);
+    void add(vector<int> values, string path);
+    void print_inorder(BinaryTree tree);
+    void print_preorder(BinaryTree tree);
+    void print_postorder(BinaryTree tree);
 };
 
 #endif

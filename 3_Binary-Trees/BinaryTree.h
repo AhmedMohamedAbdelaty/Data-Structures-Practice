@@ -17,6 +17,7 @@ public:
     void print_inorder(BinaryTree tree);
     void print_preorder(BinaryTree tree);
     void print_postorder(BinaryTree tree);
+    void BFS(BinaryTree tree);
 };
 
 #endif

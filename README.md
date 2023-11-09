@@ -65,9 +65,9 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 1. **traversal problems**:
    - [x] [Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
-   - [ ] [Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
-   - [ ] [PostOrder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
-   - [ ] [Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
+   - [x] [Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)
+   - [x] [PostOrder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
+   - [x] [Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
    - [ ] [ZigZag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
    - [ ] [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 2. **basic Binary Tree problems**

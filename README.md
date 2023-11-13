@@ -71,8 +71,8 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
    - [ ] [ZigZag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
    - [ ] [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 2. **basic Binary Tree problems**
-   - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
-   - [ ] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+   - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
+   - [x] [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
    - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
    - [ ] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
    - [ ] [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)

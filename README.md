@@ -27,7 +27,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 | 05 Project #1 - Sparse Matrix |     :no_entry_sign:      |  :no_entry_sign:   |     :no_entry_sign:      |
 |           06 Stack            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
 |           07 Queue            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
-|        08 Binary Trees        | :hourglass_flowing_sand: |  :no_entry_sign:   | :hourglass_flowing_sand: |
+|        08 Binary Trees        |    :white_check_mark:    |  :no_entry_sign:   | :hourglass_flowing_sand: |
 |            09 BST             |           :x:            |  :no_entry_sign:   |           :x:            |
 |        10 Binary Heap         |           :x:            |  :no_entry_sign:   |           :x:            |
 |            11 AVL             |           :x:            |  :no_entry_sign:   |           :x:            |

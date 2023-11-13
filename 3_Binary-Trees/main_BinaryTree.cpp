@@ -24,9 +24,15 @@ int main()
     tree.print_postorder(tree); // 7 8 4 9 5 2 10 6 3 1
     cout << endl;
 
- 
     tree.BFS(tree); // 1 2 3 4 5 6 7 8 9 10
 
+    tree.print_preorder_complete(tree);
+    cout << endl;
+
+    tree.print_preorder_parenthesis(tree);
+    cout << endl;
+
+    cout << tree.print_postorder_parenthesis_canonical(tree) << endl; // sort the children and print in parenthesis
 
     return 0;
 }

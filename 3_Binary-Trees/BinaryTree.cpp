@@ -2,6 +2,7 @@
 #include <cassert> // for assert
 #include <iostream>
 #include <queue>
+#include <algorithm>
 using namespace std;
 
 // constructor
@@ -51,6 +52,32 @@ void BinaryTree::print_preorder(BinaryTree tree)
         print_preorder(*tree.right);
 }
 
+void BinaryTree::print_preorder_complete(BinaryTree tree)
+{
+    cout << tree.data << " ";
+    if (tree.left != nullptr)
+        print_preorder_complete(*tree.left);
+    else
+        cout << "-1 ";
+    if (tree.right != nullptr)
+        print_preorder_complete(*tree.right);
+    else
+        cout << "-1 ";
+}
+void BinaryTree::print_preorder_parenthesis(BinaryTree tree)
+{
+    cout << "( " << tree.data << " ";
+    if (tree.left != nullptr)
+        print_preorder_parenthesis(*tree.left);
+    else
+        cout << "() ";
+    if (tree.right != nullptr)
+        print_preorder_parenthesis(*tree.right);
+    else
+        cout << "() ";
+    cout << ") ";
+}
+
 void BinaryTree::print_postorder(BinaryTree tree)
 {
     if (tree.left != nullptr)
@@ -58,6 +85,24 @@ void BinaryTree::print_postorder(BinaryTree tree)
     if (tree.right != nullptr)
         print_postorder(*tree.right);
     cout << tree.data << " ";
+}
+string BinaryTree::print_postorder_parenthesis_canonical(BinaryTree tree)
+{
+    string repr = "(" + to_string(tree.data);
+    vector<string> v;
+    if (tree.left)
+        v.push_back(print_postorder_parenthesis_canonical(*tree.left));
+    else
+        v.push_back("()");
+    if (tree.right)
+        v.push_back(print_postorder_parenthesis_canonical(*tree.right));
+    else
+        v.push_back("()");
+    sort(v.begin(), v.end());
+    for (int i = 0; i < (int)v.size(); ++i)
+        repr += v[i];
+    repr += ")";
+    return repr;
 }
 
 void BinaryTree::BFS(BinaryTree tree)

@@ -77,7 +77,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
    - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
    - [x] [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
    - [x] [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
-   - [ ] [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
+   - [x] [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
    - [ ] [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
    - [ ] [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt)
    - [ ] [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)

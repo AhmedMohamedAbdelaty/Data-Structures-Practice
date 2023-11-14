@@ -15,8 +15,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 #### You can find my solutions to the problems in the [LeetCode-Solutions](https://github.com/AhmedMohamedAbdelaty/LeetCode-Solutions)
 
-
-
+---
 
 <div align="center">
 

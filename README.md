@@ -1,5 +1,10 @@
 <div align="center">
 
+<p align="center">
+  <img src="https://i.pinimg.com/originals/fc/21/16/fc2116fb21de12a62d4b36c31bbb1e6f.gif" alt="animated" />
+</p>
+
+
 # Data Structures Course Progress and Problem List
 
 This repository contains my progress on Dr. Moustafa Saad's Data Structures course and a list of problems for anyone interested in practicing these topics or data structures.
@@ -10,15 +15,7 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 #### You can find my solutions to the problems in the [LeetCode-Solutions](https://github.com/AhmedMohamedAbdelaty/LeetCode-Solutions)
 
-------
-<div align="center">
 
-<p align="center">
-  <img src="https://i.pinimg.com/originals/fc/21/16/fc2116fb21de12a62d4b36c31bbb1e6f.gif" alt="animated" />
-</p>
-
-------
-</div>
 
 
 <div align="center">

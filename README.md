@@ -1,12 +1,17 @@
 <div align="center">
 
-# Data-Structures Course Notes
+# Data Structures Course Progress and Problem List
 
-Dr. Moustafa Saad's Data Structures course notes and homework
+This repository contains my progress on Dr. Moustafa Saad's Data Structures course and a list of problems for anyone interested in practicing these topics or data structures.
+
+</div>
 
 Course : [Mastering critical SKILLS in Data Structures using C++](https://www.udemy.com/course/dscpp-skills/)
 
+#### You can find my solutions to the problems in the [LeetCode-Solutions](https://github.com/AhmedMohamedAbdelaty/LeetCode-Solutions)
+
 ------
+<div align="center">
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/fc/21/16/fc2116fb21de12a62d4b36c31bbb1e6f.gif" alt="animated" />
@@ -131,39 +136,3 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 
 # Folder Structure
-
-```md
-.
-├── 1_Vector
-│   ├── Homework
-│   │   ├── 2_Homework_1.cpp
-│   │   ├── 3_Homework_2.cpp
-│   │   ├── 4_Homework_3.cpp
-│   │   ├── 5_Homework_4.cpp
-│   │   └── 6_Homework_5.cpp
-│   ├── main_vector.cpp
-│   └── output
-│       └── main_vector
-├── 2_Linked-List
-│   ├── Doubly-Linked-List
-│   │   ├── DoublyLinkedList.cpp
-│   │   ├── DoublyLinkedList.h
-│   │   ├── main_DoublyLinkedList.cpp
-│   │   └── output
-│   │       └── main_DoublyLinkedList
-│   └── Single-Linked-List
-│       ├── main_SingleLinkedList.cpp
-│       ├── SingleLinkedList.cpp
-│       │── SingleLinkedList.h
-│       ├── output
-│           └── main_SingleLinkedList
-├── 3_Binary-Trees
-│   ├── BinaryTree.cpp
-│   ├── BinaryTree.h
-│   ├── main_BinaryTree.cpp
-│   └── output
-│       └── main_BinaryTree
-└── README.md
-
-10 directories, 20 files
-```

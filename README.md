@@ -19,21 +19,21 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
 
 <div align="center">
 
-|            Section            |         Tutorial         |      Homework      |         Problems         |
-| :---------------------------: | :----------------------: | :----------------: | :----------------------: |
-|           01 Vector           |    :white_check_mark:    | :white_check_mark: |      :repeat:,:ok:       |
-|         02 Complexity         |           :ok:           |  :no_entry_sign:   |           :ok:           |
-|        03 Single List         |    :white_check_mark:    |  :no_entry_sign:   |      :repeat:,:ok:       |
-|     04 doubly linked list     |    :white_check_mark:    |  :no_entry_sign:   |      :repeat:,:ok:       |
-| 05 Project #1 - Sparse Matrix |     :no_entry_sign:      |  :no_entry_sign:   |     :no_entry_sign:      |
-|           06 Stack            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
-|           07 Queue            |           :ok:           |  :no_entry_sign:   |      :repeat:,:ok:       |
-|        08 Binary Trees        |    :white_check_mark:    |  :no_entry_sign:   | :hourglass_flowing_sand: |
-|            09 BST             |           :x:            |  :no_entry_sign:   |           :x:            |
-|        10 Binary Heap         |           :x:            |  :no_entry_sign:   |           :x:            |
-|            11 AVL             |           :x:            |  :no_entry_sign:   |           :x:            |
-|            12 Trie            |           :x:            |  :no_entry_sign:   |           :x:            |
-|          13 Hashing           |           :x:            |  :no_entry_sign:   |           :x:            |
+|            Section            |      Tutorial      |         Problems         |
+| :---------------------------: | :----------------: | :----------------------: |
+|           01 Vector           | :white_check_mark: |           :ok:           |
+|         02 Complexity         |        :ok:        |           :ok:           |
+|        03 Single List         | :white_check_mark: |           :ok:           |
+|     04 doubly linked list     | :white_check_mark: |           :ok:           |
+| 05 Project #1 - Sparse Matrix |  :no_entry_sign:   |     :no_entry_sign:      |
+|           06 Stack            |        :ok:        |           :ok:           |
+|           07 Queue            |        :ok:        |           :ok:           |
+|        08 Binary Trees        | :white_check_mark: | :hourglass_flowing_sand: |
+|            09 BST             |        :x:         |           :x:            |
+|        10 Binary Heap         |        :x:         |           :x:            |
+|            11 AVL             |        :x:         |           :x:            |
+|            12 Trie            |        :x:         |           :x:            |
+|          13 Hashing           |        :x:         |           :x:            |
 
 </div>
 

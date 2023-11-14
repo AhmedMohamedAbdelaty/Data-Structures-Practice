@@ -132,7 +132,3 @@ Course : [Mastering critical SKILLS in Data Structures using C++](https://www.ud
    - [ ] [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
 
 ---
-
-
-
-# Folder Structure

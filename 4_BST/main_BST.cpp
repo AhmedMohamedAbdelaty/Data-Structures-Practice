@@ -145,6 +145,15 @@ public:
         }
         return -1;
     }
+    int lca(int x, int y)
+    {
+        if (x < value && y < value)
+            return left->lca(x, y);
+        else if (x > value && y > value)
+            return right->lca(x, y);
+        else
+            return value;
+    }
 };
 
 int main()
@@ -168,5 +177,17 @@ int main()
     deb(bst2->kth_smallest(1)); // 1
     deb(bst2->kth_smallest(10)); // -1
 
+    BinarySearchTree* bst3 = new BinarySearchTree(5);
+    bst3->insert(3);
+    bst3->insert(7);
+    bst3->insert(2);
+    bst3->insert(4);
+    bst3->insert(6);
+    bst3->insert(8);
+    bst3->displayInorder();
+    cout << "\n";
+
+    deb(bst3->lca(2, 4));
+    deb(bst3->lca(2, 8));
     return 0;
 }

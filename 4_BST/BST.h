@@ -28,7 +28,7 @@ private:
 public:
     BST();
     BST(int value);
-    Node* ROOT()
+    Node* getRoot()
     {
         return root;
     }
@@ -39,7 +39,6 @@ public:
     bool search_iterative(int value);
 
     void display();
-    BST build_balanced_bst_tree(vector<int>& values);
 };
 
 #endif

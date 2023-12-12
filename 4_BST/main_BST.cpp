@@ -32,8 +32,8 @@ BST createBSTFromSortedVector(const vector<int>& sortedVector, int start, int en
     BST leftSubtree = createBSTFromSortedVector(sortedVector, start, mid - 1);
     BST rightSubtree = createBSTFromSortedVector(sortedVector, mid + 1, end);
 
-    bst.ROOT()->left = leftSubtree.ROOT();
-    bst.ROOT()->right = rightSubtree.ROOT();
+    bst.getRoot()->left = leftSubtree.getRoot();
+    bst.getRoot()->right = rightSubtree.getRoot();
 
     return bst;
 }
@@ -48,7 +48,7 @@ int main()
     bst.insert(3);
     bst.insert(7);
 
-    deb(isBST(bst.ROOT())); // true
+    deb(isBST(bst.getRoot())); // true
 
     // Creating non-bst
     Node* non_bst = new Node(10);
@@ -61,7 +61,7 @@ int main()
 
     vector<int> v = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     BST bst_from_array = createBSTFromSortedVector(v, 0, v.size() - 1);
-    deb(isBST(bst_from_array.ROOT()));
+    deb(isBST(bst_from_array.getRoot()));
     bst_from_array.display();
 
     return 0;

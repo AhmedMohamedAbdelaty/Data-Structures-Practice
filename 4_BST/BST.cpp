@@ -45,15 +45,6 @@ bool BST::searchHelper(Node* node, int value)
     }
 }
 
-void BST::displayHelper(Node* node)
-{
-    if (node != nullptr) {
-        displayHelper(node->left);
-        cout << node->data << " ";
-        displayHelper(node->right);
-    }
-}
-
 void BST::insert(int value)
 {
     root = insertHelper(root, value);
@@ -81,4 +72,12 @@ bool BST::search_iterative(int value)
 void BST::display()
 {
     displayHelper(root);
+}
+void BST::displayHelper(Node* node)
+{
+    if (node != nullptr) {
+        displayHelper(node->left);
+        cout << node->data << " ";
+        displayHelper(node->right);
+    }
 }

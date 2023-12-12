@@ -107,23 +107,7 @@ public:
         if (right)
             right->displayInorder();
     }
-    int kth_smallest(int k)
-    {
-        stack<BinarySearchTree*> s;
-        BinarySearchTree* curr = this;
-        while (curr || !s.empty()) {
-            while (curr) {
-                s.push(curr);
-                curr = curr->left;
-            }
-            curr = s.top();
-            s.pop();
-            if (--k == 0)
-                return curr->value;
-            curr = curr->right;
-        }
-        return -1;
-    }
+
     void printBFS()
     {
         queue<pair<BinarySearchTree*, int>> q;
@@ -143,6 +127,23 @@ public:
             if (curr->right)
                 q.push({ curr->right, level + 1 });
         }
+    }
+    int kth_smallest(int k)
+    {
+        stack<BinarySearchTree*> s;
+        BinarySearchTree* curr = this;
+        while (curr || !s.empty()) {
+            while (curr) {
+                s.push(curr);
+                curr = curr->left;
+            }
+            curr = s.top();
+            s.pop();
+            if (--k == 0)
+                return curr->value;
+            curr = curr->right;
+        }
+        return -1;
     }
 };
 

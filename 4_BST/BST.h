@@ -1,27 +1,22 @@
 #ifndef BST_H
 #define BST_H
 #include <iostream>
+#include <vector>
 using namespace std;
 
-struct Node {
+class Node {
+public:
     int data;
     Node* left;
     Node* right;
 
-    Node()
-    {
-        data = 0;
-        left = nullptr;
-        right = nullptr;
-    }
     Node(int value)
+        : data(value)
+        , left(nullptr)
+        , right(nullptr)
     {
-        data = value;
-        left = nullptr;
-        right = nullptr;
     }
 };
-
 class BST {
 private:
     Node* root;
@@ -44,6 +39,7 @@ public:
     bool search_iterative(int value);
 
     void display();
+    BST build_balanced_bst_tree(vector<int>& values);
 };
 
 #endif

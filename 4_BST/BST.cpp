@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <cassert> // for assert
 #include <iostream>
+#include <vector>
 using namespace std;
 
 // Implementation of the BST class
